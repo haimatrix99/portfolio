@@ -1,11 +1,18 @@
+"use client"
+
 import Image from "next/image";
 import React from "react";
 import avatar from "@/public/mf-avatar.svg";
 import devices from "@/public/hero-devices.svg";
+import { motion } from "framer-motion";
 
 export default function About() {
   return (
-    <div className="mt-20 flex flex-col items-center justify-center w-[80%]">
+    <motion.div
+      className="mt-20 flex flex-col items-center justify-center w-[80%]"
+      initial={{ opacity: 0, y: -100 }}
+      animate={{ opacity: 1, y: 0 }}
+    >
       <h1 className="text-6xl text-indigo-500 font-extrabold">
         DevOps Engineer
       </h1>
@@ -29,6 +36,6 @@ export default function About() {
         quality="95"
         priority={true}
       />
-    </div>
+    </motion.div>
   );
 }
