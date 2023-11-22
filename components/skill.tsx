@@ -32,13 +32,13 @@ export function Skill({ title, description, icon, tools }: SkillProps) {
       <div className="bg-[#5be9b9] rounded-full text-4xl p-4 hover:scale-105">
         {icon}
       </div>
-      <div className="text-3xl text-indigo-500 font-extrabold">{title}</div>
-      <div className="text-lg font-medium">{description}</div>
+      <div className="text-3xl text-[#141c3a] font-extrabold">{title}</div>
+      <div className="text-lg text-[#141c3a] font-medium">{description}</div>
       <div>
-        <div className="text-2xl font-medium text-indigo-500 my-2">Tools</div>
+        <div className="text-2xl font-medium text-[#751ff4] my-2">Tools</div>
         <ul className="flex flex-col justify-center items-center">
           {tools.map((tool, index) => (
-            <li key={index} className="text-lg font-medium">
+            <li key={index} className="text-lg font-medium text-[#141c3a]">
               {tool}
             </li>
           ))}

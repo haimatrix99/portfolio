@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import Image from "next/image";
 import React from "react";
@@ -13,10 +13,10 @@ export default function About() {
       initial={{ opacity: 0, y: -200 }}
       animate={{ opacity: 1, y: 0 }}
     >
-      <h1 className="text-6xl text-indigo-500 font-extrabold">
+      <h1 className="text-6xl text-[#141c3a] font-extrabold">
         DevOps Engineer
       </h1>
-      <p className="text-lg text-gray-950 my-4 font-normal">
+      <p className="mt-4 text-lg text-[#0A0A0A] opacity-90 my-4 font-medium">
         I design and code beautifully simple things, and I love what I do.
       </p>
       <Image

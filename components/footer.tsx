@@ -3,7 +3,7 @@ import { FaInfinity, FaLinkedinIn } from "react-icons/fa";
 import { FiGithub } from "react-icons/fi";
 export default function Footer() {
   return (
-    <div className="py-8 flex flex-col justify-center items-center bg-indigo-500 gap-6">
+    <div className="py-8 flex flex-col justify-center items-center bg-[#6e07f3] gap-6">
       <FaInfinity className="text-[64px] text-white" />
       <h3 className="px-4 text-white text-2xl font-medium">
         Living, learning, & leveling up one day at a time.
