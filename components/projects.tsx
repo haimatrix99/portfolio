@@ -18,7 +18,7 @@ export default function Projects() {
       </h1>
       <ul className="flex flex-wrap justify-center items-center translate-y-[50px] gap-8">
         {projectsData.map((project, index) => (
-          <li key={index} className="w-full md:w-[45%]">
+          <li key={index} className="w-[90%] md:w-[45%]">
             <Project {...project} />
           </li>
         ))}

@@ -15,7 +15,7 @@ export default function Skills() {
         {skillsData.map((skill, index) => (
           <li
             key={index}
-            className="px-8 py-16 w-[90%] border-b border-[#E6ECF8] last:border-none md:w-1/3 md:border-r "
+            className="px-8 py-16 border-b border-[#E6ECF8] last:border-none md:w-1/3 md:border-r "
           >
             <Skill {...skill} />
           </li>
