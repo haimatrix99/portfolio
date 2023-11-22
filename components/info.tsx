@@ -7,7 +7,7 @@ export default function Info() {
   return (
     <motion.div
       className="flex justify-center items-center bg-indigo-500"
-      initial={{ opacity: 0, y: 100 }}
+      initial={{ opacity: 0, y: 200 }}
       animate={{ opacity: 1, y: 0 }}
     >
       <div className="my-36 w-[80%]">

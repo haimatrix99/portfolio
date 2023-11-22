@@ -1,5 +1,6 @@
 import About from "@/components/about";
 import Info from "@/components/info";
+import Projects from "@/components/projects";
 import Skills from "@/components/skill";
 
 export default function Home() {
@@ -8,6 +9,7 @@ export default function Home() {
       <About />
       <Info />
       <Skills />
+      <Projects />
     </main>
   );
 }

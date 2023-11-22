@@ -8,7 +8,7 @@ export default function Skills() {
   return (
     <motion.div
       className="w-[90%] flex justify-center items-center rounded-2xl border-2 -translate-y-[80px] bg-white"
-      initial={{ opacity: 0, y: 150 }}
+      initial={{ opacity: 0, y: 250 }}
       animate={{ opacity: 1, y: -70 }}
     >
       <ul className="flex flex-col items-center gap-8 md:flex-row md:items-baseline">

@@ -2,6 +2,7 @@ import React from "react";
 import { DiHtml5 } from "react-icons/di";
 import { DiTerminal } from "react-icons/di";
 import { DiCode } from "react-icons/di";
+import { PiDetectiveFill } from "react-icons/pi";
 
 export const skillsData = [
   {
@@ -42,3 +43,21 @@ export const skillsData = [
     ],
   },
 ] as const;
+
+export const projectsData = [
+  {
+    title: "Werewolf One Night",
+    description:
+      "A Multiplayer online game simulate a board game is Werewolf One Night",
+    icon: "/werewolf.svg",
+    href: "https://werewolfonenight.com",
+    url: "https://werewolfonenight.com",
+  },
+  {
+    title: "Deception",
+    description: "A Multiplayer online game simulate a board game is Deception",
+    icon: React.createElement(PiDetectiveFill),
+    href: "/",
+    url: "Coming soon",
+  },
+];

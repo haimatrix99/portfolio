@@ -8,7 +8,7 @@ export default function Header() {
   return (
     <motion.div
       className="mx-[100px] mt-6 md:mt-8 flex flex-col justify-between items-center md:flex-row"
-      initial={{ opacity: 0, y: -100 }}
+      initial={{ opacity: 0, y: -200 }}
       animate={{ opacity: 1, y: 0 }}
     >
       <a href="/">

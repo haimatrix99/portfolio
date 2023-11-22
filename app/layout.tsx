@@ -8,7 +8,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Hai Le Trung | DevOps Engineer",
-  description: "Personal Portfolio of Hai Le Trung as a full-stack developer",
+  description: "Personal Portfolio of Hai Le Trung as a devops developer",
 };
 
 export default function RootLayout({
@@ -23,7 +23,7 @@ export default function RootLayout({
       >
         <Header />
         {children}
-        {/* <Footer /> */}
+        <Footer />
       </body>
     </html>
   );

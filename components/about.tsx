@@ -10,7 +10,7 @@ export default function About() {
   return (
     <motion.div
       className="mt-20 flex flex-col items-center justify-center w-[80%]"
-      initial={{ opacity: 0, y: -100 }}
+      initial={{ opacity: 0, y: -200 }}
       animate={{ opacity: 1, y: 0 }}
     >
       <h1 className="text-6xl text-indigo-500 font-extrabold">
