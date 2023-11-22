@@ -7,7 +7,7 @@ export const skillsData = [
   {
     title: "Frontend",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "I'm not a person with an aesthetic eye, but I always try to help users solve problems.",
     icon: React.createElement(DiHtml5),
     tools: [
       "HTML",
@@ -22,14 +22,14 @@ export const skillsData = [
   {
     title: "Backend",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "I started learning backend when I was trying to understand the essence of programming.",
     icon: React.createElement(DiCode),
     tools: ["Python", "Django", "FastAPI", "Flask", "Node.js"],
   },
   {
     title: "DevOps",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB.",
+      "I'm a cloud passionate and I love to build the infrastructure on it.",
     icon: React.createElement(DiTerminal),
     tools: [
       "Docker",

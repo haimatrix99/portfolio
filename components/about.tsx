@@ -30,7 +30,7 @@ export default function About() {
       />
       <Image
         src={devices}
-        alt="Avatar"
+        alt="Devices"
         width="1024"
         height="1024"
         quality="95"
