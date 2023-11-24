@@ -18,7 +18,7 @@ export default function Projects() {
       </h1>
       <ul className="flex flex-wrap justify-center items-center translate-y-[50px] gap-8">
         {projectsData.map((project, index) => (
-          <li key={index} className="w-[90%] md:w-[45%]">
+          <li key={index} className="md:w-[45%]">
             <Project {...project} />
           </li>
         ))}
@@ -47,7 +47,7 @@ export function Project({ title, description, icon, href, url }: ProjectProps) {
         <h2 className="text-[#26293b] text-2xl font-semibold">{title}</h2>
       </div>
       <p className="text-lg font-medium text-[#2f2643]">{description}</p>
-      <div className="px-4 text-lg text-[#106ad4] font-medium flex justify-center items-center gap-2 bg-indigo-100 border rounded-2xl">
+      <div className="px-4 break-all text-[16px] md:text-lg text-[#106ad4] font-medium flex justify-center items-center gap-2 bg-indigo-100 border rounded-2xl">
         <FaArrowUpRightFromSquare />
         <a href={href} target="_blank">
           {url}
