@@ -51,7 +51,7 @@ export const projectsData = [
       "A Multiplayer online game simulate a board game is Werewolf One Night",
     icon: "/werewolf.svg",
     href: "https://werewolfonenight.com",
-    url: "https://werewolfonenight.com",
+    url: "werewolfonenight.com",
   },
   {
     title: "Deception",
