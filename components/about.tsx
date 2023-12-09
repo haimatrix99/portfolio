@@ -4,6 +4,7 @@ import Image from "next/image";
 import React from "react";
 import avatar from "@/public/mf-avatar.svg";
 import devices from "@/public/hero-devices.svg";
+import Typewriter from "typewriter-effect";
 import { motion } from "framer-motion";
 
 export default function About() {
@@ -14,7 +15,13 @@ export default function About() {
       animate={{ opacity: 1, y: 0 }}
     >
       <h1 className="text-6xl text-[#141c3a] font-extrabold">
-        DevOps Engineer
+        <Typewriter
+          options={{
+            strings: ["DevOps Engineer"],
+            autoStart: true,
+            loop: true,
+          }}
+        />
       </h1>
       <p className="mt-4 text-lg text-[#0A0A0A] opacity-90 my-4 font-medium">
         I design and code beautifully simple things, and I love what I do.
