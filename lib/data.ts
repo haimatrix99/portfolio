@@ -3,6 +3,7 @@ import { DiHtml5 } from "react-icons/di";
 import { DiTerminal } from "react-icons/di";
 import { DiCode } from "react-icons/di";
 import { PiDetectiveFill } from "react-icons/pi";
+import { MdQuiz } from "react-icons/md";
 
 export const skillsData = [
   {
@@ -59,5 +60,13 @@ export const projectsData = [
     icon: React.createElement(PiDetectiveFill),
     href: "/",
     url: "Coming soon",
+  },
+  {
+    title: "QuizMe",
+    description:
+      "A AI SaaS project allow user upload video and generate quiz from video's uploaded",
+    icon: React.createElement(MdQuiz),
+    href: "https://quizme.fromyourbestfriend.com",
+    url: "quizme.fromyourbestfriend.com",
   },
 ];
