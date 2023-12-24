@@ -11,7 +11,7 @@ export default function Skills() {
       initial={{ opacity: 0, y: 250 }}
       animate={{ opacity: 1, y: -70 }}
     >
-      <ul className="flex flex-col items-center gap-8 divide-y md:divide-x divide-[#E6ECF8] divide-solid md:flex-row md:items-baseline">
+      <ul className="flex flex-col gap-8 divide-y md:divide-x divide-[#E6ECF8] divide-solid md:flex-row">
         {skillsData.map((skill, index) => (
           <li key={index} className="px-8 py-16 md:w-1/3">
             <Skill {...skill} />
