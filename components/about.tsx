@@ -17,7 +17,7 @@ export default function About() {
       <h1 className="text-6xl text-[#141c3a] font-extrabold">
         <Typewriter
           options={{
-            strings: ["DevOps Engineer"],
+            strings: ["DevOps Engineer", "Hai Le Trung"],
             autoStart: true,
             loop: true,
           }}
