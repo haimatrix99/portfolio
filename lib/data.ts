@@ -2,8 +2,8 @@ import React from "react";
 import { DiHtml5 } from "react-icons/di";
 import { DiTerminal } from "react-icons/di";
 import { DiCode } from "react-icons/di";
-import { PiDetectiveFill } from "react-icons/pi";
 import { MdQuiz } from "react-icons/md";
+import { FaChessQueen } from "react-icons/fa6";
 
 export const skillsData = [
   {
@@ -47,21 +47,6 @@ export const skillsData = [
 
 export const projectsData = [
   {
-    title: "Werewolf One Night",
-    description:
-      "A Multiplayer online game simulate a board game is Werewolf One Night",
-    icon: "/werewolf.svg",
-    href: "https://werewolfonenight.com",
-    url: "werewolfonenight.com",
-  },
-  {
-    title: "Deception",
-    description: "A Multiplayer online game simulate a board game is Deception",
-    icon: React.createElement(PiDetectiveFill),
-    href: "/",
-    url: "Coming soon",
-  },
-  {
     title: "QuizMe",
     description:
       "A AI SaaS project allow user upload video and generate quiz from video's uploaded",
@@ -69,4 +54,12 @@ export const projectsData = [
     href: "https://quizme.fromyourbestfriend.com",
     url: "quizme.fromyourbestfriend.com",
   },
+  {
+    title: "Chat With Chess",
+    description:
+      "Engage in interactive conversations blending chess strategy, tactics, and tips for players of all levels.",
+    icon: React.createElement(FaChessQueen),
+    href: "https://chat-with-chess.vercel.app",
+    url: "chat-with-chess.vercel.app",
+  }
 ];
